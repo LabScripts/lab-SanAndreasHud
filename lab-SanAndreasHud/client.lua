@@ -75,9 +75,8 @@ RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function()
 	ESX.PlayerData = ESX.GetPlayerData()
 	SendNUIMessage({action = 'updateID', id = GetPlayerServerId(PlayerId())})
-    LoadRadialMap()
+        LoadRadialMap()
 	Main()
-    setLevel()
 end)
 
 function Main()
@@ -256,10 +255,10 @@ Citizen.CreateThread(function()
         HideHudComponentThisFrame(9) -- STREET_NAME
         HideHudComponentThisFrame(3) -- CASH
         HideHudComponentThisFrame(4) -- MP_CASH
-		HideHudComponentThisFrame(21) -- 21 : HUD_COMPONENTS
-		HideHudComponentThisFrame(22) -- 22 : HUD_WEAPONS
+	HideHudComponentThisFrame(21) -- 21 : HUD_COMPONENTS
+	HideHudComponentThisFrame(22) -- 22 : HUD_WEAPONS
 
-		DisplayAmmoThisFrame(false)
+	DisplayAmmoThisFrame(false)
         Citizen.Wait(4)
 
     end
