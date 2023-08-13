@@ -1,0 +1,219 @@
+@import url('https://fonts.cdnfonts.com/css/pricedown');
+
+@font-face {
+	font-family: "num";
+	src: url("./fonts/Diploma_Regular.ttf") format("truetype");
+}
+
+
+html {
+	font-family: 'Myriad Pro Bold';
+	background:#00000000;
+}
+
+body {
+	background:transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	z-index:9999;
+	/* background: url('https://cdn.discordapp.com/attachments/832929996578226216/1118906151979974707/image.png');
+	background-size: cover;
+	background-repeat: no-repeat; */
+}
+
+#wrap {	
+	display:block;
+	font-family: 'Abel', sans-serif;
+	top: 50%;
+	left:50%;
+	width: 100%;
+	height: 96%;
+    transform: translate(-50%, -50%);
+	position:absolute;
+	color: rgba(255, 255, 255, 1);
+	background:transparent;
+}
+
+#progbar {
+	width: 6.64vw;
+	height: 1.04vh;
+	margin-bottom: -1vh;
+	float: none;
+	border: 2px solid #000;
+	
+}
+
+#progbar svg {
+	height: 100%;
+	width: 100%;
+	fill: none;
+	stroke: #df0000;
+	stroke-width: 10;
+	border-radius: 0vw;
+}
+
+#progbar2 {
+	width: 3.13vw;
+	height: 1.04vh;
+	margin-bottom: 0.5vh;
+	float:none;
+	border: 2px solid #000;
+	left: 50%
+	
+}
+
+#progbar2 svg {
+	height: 100%;
+	width: 100%;
+	fill: none;
+	stroke: #ffffff;
+	stroke-width: 10;
+	border-radius: 0vw;
+}
+
+#progbar3 {
+	width: 3.32vw;
+	height: 1.04vh;
+	margin-right: 0vh;
+	float: left;
+	border-top: 0.08vw solid #000;
+	border-left: 0.08vw solid #000;
+	border-bottom: 0.08vw solid #000;
+}
+
+#progbar3 svg {
+	height: 100%;
+	width: 100%;
+	fill: none;
+	stroke: #fe8a19;
+	stroke-width: 10;
+	border-radius: 0vw;
+}
+
+#progbar4 {
+	width: 3.32vw;
+	height: 1.04vh;
+	margin-bottom: 0.69vh;
+	float: left;
+	border: 2px solid #000;
+}
+
+#progbar4 svg {
+	height: 100%;
+	width: 100%;
+	fill: none;
+	stroke: #176eff;
+	stroke-width: 10;
+	border-radius: 0vw;
+}
+
+#progbars {
+	position: absolute;
+	top: 5vh;
+	right: 2%;
+	width: max-content;
+}
+
+#weapon {
+	position: absolute;
+	top: 0.5vh;
+	right: 5.5%;
+	width: 90px;
+}
+
+#ammo {
+	display: none;
+	position: absolute;
+	top: 5vh;
+	right: 6.9%;
+	font-family: 'Pricedown Bl', sans-serif;
+	color: #fff;
+	font-size: 1vw;
+	text-align: right;
+	text-shadow:
+    -0.08vw -0.08vw 0 #000,
+     0   -0.08vw 0 #000,
+     0.08vw -0.08vw 0 #000,
+     0.08vw  0   0 #000,
+     0.08vw  0.08vw 0 #000,
+     0    0.08vw 0 #000,
+    -0.08vw  0.08vw 0 #000,
+    -0.08vw  0   0 #000;
+}
+
+.money {
+	font-family: 'Pricedown Bl', sans-serif;
+	color: #246100;
+	font-size: 1.56vw;
+	text-align: right;
+	text-shadow:
+    -0.08vw -0.08vw 0 #000,
+     0   -0.08vw 0 #000,
+     0.08vw -0.08vw 0 #000,
+     0.08vw  0   0 #000,
+     0.08vw  0.08vw 0 #000,
+     0    0.08vw 0 #000,
+    -0.08vw  0.08vw 0 #000,
+    -0.08vw  0   0 #000;
+	position: absolute;
+	top: 11vh;
+	right: 2%;
+}
+
+.time {
+	font-family: 'Pricedown Bl', sans-serif;
+	color: #fff;
+	font-size: 1.56vw;
+	text-align: right;
+	text-shadow:
+    -0.08vw -0.08vw 0 #000,
+     0   -0.08vw 0 #000,
+     0.08vw -0.08vw 0 #000,
+     0.08vw  0   0 #000,
+     0.08vw  0.08vw 0 #000,
+     0    0.08vw 0 #000,
+    -0.08vw  0.08vw 0 #000,
+    -0.08vw  0   0 #000;
+	position: absolute;
+	top: 1vh;
+	right: 2%;
+}
+
+.job {
+	font-family: 'num';
+	color: #fff;
+	font-size: 1.25vw;
+	text-align: right;
+	text-shadow:
+    -0.08vw -0.08vw 0 #000,
+     0   -0.08vw 0 #000,
+     0.08vw -0.08vw 0 #000,
+     0.08vw  0   0 #000,
+     0.08vw  0.08vw 0 #000,
+     0    0.08vw 0 #000,
+    -0.08vw  0.08vw 0 #000,
+    -0.08vw  0   0 #000;
+	position: absolute;
+	top: 14.5vh;
+	right: 2%;
+}
+
+#ring {
+	position: absolute;
+	left: 2.03vw;
+	bottom: 5vh;
+	width: 15.5vw;
+	height: 22.8vh;
+	z-index: 3;
+}
+  
+@-webkit-keyframes blink {
+	from {
+		filter: drop-shadow(0 0 0.0vw #ffffff00);
+	}
+	to {
+		filter: drop-shadow(0 0 0.2vw #f6003e);
+	}
+}
