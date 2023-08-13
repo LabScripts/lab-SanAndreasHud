@@ -1,4 +1,7 @@
 # lab-SanAndreasHud
+
+Join Now! https://discord.com/invite/2XSRnjzY9Y
+
 🌟 Introducing the GTA SA Classic HUD: Relive the Nostalgia! 🌟
 
 Remember the good old days of cruising through the streets of Los Santos in GTA San Andreas? The unique HUD design, the vintage vibes, and that unmistakable atmosphere are etched into the memories of many.
