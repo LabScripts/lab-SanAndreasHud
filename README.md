@@ -15,3 +15,7 @@ Features that'll Blow You Away:
 🔹 Seamless Integration: Installing and integrating this HUD into your FiveM server is a breeze. We've kept things simple so that you can get back to what you love – enjoying the game!
 
 Requirements: ESX (Feel free to change that)
+
+
+![image](https://github.com/LabScripts/lab-SanAndreasHud/assets/97763126/77a16948-372c-4b66-b4d9-1d2ef9ed18f1)
+![image](https://github.com/LabScripts/lab-SanAndreasHud/assets/97763126/e0c05d75-af8c-43ad-b866-9085806c1080)
